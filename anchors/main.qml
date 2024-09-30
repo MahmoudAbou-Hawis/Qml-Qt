@@ -20,7 +20,8 @@ Window {
             {
                 left:rootrec.left
                 right:rootrec.right
-                top:rootrec.top
+                leftMargin:rootrec.width /16
+                verticalCenter: rootrec.verticalCenter
             }
         }
     }
